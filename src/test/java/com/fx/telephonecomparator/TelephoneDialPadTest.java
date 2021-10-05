@@ -14,7 +14,6 @@ public class TelephoneDialPadTest
     public void testZeroDial() throws IOException
     {
         LinkedList<String> list = utils.retrieveCombinations("000");
-
         Assert.assertEquals(list.toString(), "[000]");
     }
 
